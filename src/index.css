@@ -15,3 +15,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "primeicons/primeicons.css";
