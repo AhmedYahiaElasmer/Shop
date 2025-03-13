@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="flex align-items-center justify-content-center ">
+      <div className="flex align-items-center justify-content-center  ">
         <BrandComponent />
       </div>
       <div className="flex align-items-center justify-content-center ">

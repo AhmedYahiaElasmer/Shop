@@ -7,7 +7,7 @@ function HomeCard() {
     <>
       <div
         className="col-12 md:col-6 lg:col-3 mb-3 lg:mb-0 "
-        style={{ width: "10rem" }}
+        style={{ width: "11rem" }}
       >
         <a className="p-2 no-underline  active:none" href="#">
           <div className="relative">
@@ -66,7 +66,7 @@ function HomeCard() {
                 onChange={(e) => setValue(e.value)}
                 cancel={false}
               />
-              <span className="ml-1">(99)</span>
+              <span className="ml-1 text text-900">(99)</span>
             </div>
             <div className="text text-900  font-bold ">
               $14 <span className="text text-700 line-through ">$150.00</span>
