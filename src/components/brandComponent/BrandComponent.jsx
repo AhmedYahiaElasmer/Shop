@@ -1,4 +1,4 @@
-import HomeCard from "../cardComponent/homeCard";
+import HomeCard from "../cardComponent/homeCard.jsx";
 
 function BrandComponent() {
   return (

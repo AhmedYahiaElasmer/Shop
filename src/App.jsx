@@ -1,4 +1,4 @@
-import BrandComponent from "./components/brandComponent/BrandComponent";
+import BrandComponent from "./components/brandComponent/BrandComponent.jsx";
 
 import Navbar from "./components/Navbar";
 
