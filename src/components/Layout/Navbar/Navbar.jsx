@@ -1,11 +1,9 @@
-import Logo from "../Common/Logo";
 import { IconField } from "primereact/iconfield";
 import { InputIcon } from "primereact/inputicon";
 import { InputText } from "primereact/inputtext";
-
 import { Avatar } from "primereact/avatar";
 import { Toolbar } from "primereact/toolbar";
-
+import Logo from "../../../Common/Logo.jsx";
 function Navbar() {
   const start = (
     <div className="flex justify-content-between" style={{ width: "250px" }}>

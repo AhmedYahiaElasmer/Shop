@@ -1,19 +1,16 @@
-import BrandComponent from "./components/brandComponent/BrandComponent.jsx";
-
-import Navbar from "./components/Navbar";
+import HomePage from "./PAGES/Home/HomePage.jsx";
+import ExplorePage from "./PAGES/Explore/ExplorePage.jsx";
+import Navbar from "./components/Layout/Navbar/Navbar.jsx";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className="flex align-items-center justify-content-center  ">
-        <BrandComponent />
-      </div>
-      <div className="flex align-items-center justify-content-center ">
-        <BrandComponent />
-      </div>
-      <div className="flex align-items-center justify-content-center ">
-        <BrandComponent />
+      <div className="grid">
+        <div className="col-8 col-offset-2">
+          {/* <HomePage /> */}
+          <ExplorePage />
+        </div>
       </div>
     </>
   );

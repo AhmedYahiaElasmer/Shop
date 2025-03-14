@@ -1,0 +1,27 @@
+.p-rating .p-rating-item .p-rating-icon.p-icon {
+  width: 0.8rem !important;
+  height: 0.8rem !important;
+}
+.top-space-12 {
+  top: 12px !important;
+}
+.bottom-space-12 {
+  bottom: 12px !important;
+}
+.left-space-12 {
+  left: 12px !important;
+}
+.right-space-12 {
+  right: 1px !important;
+}
+.p-space-4 {
+  padding: 4px !important;
+}
+.gap-space-2 {
+  gap: 2px !important;
+}
+.text-badgeBold {
+  font-size: 10px;
+  letter-spacing: 0.15px;
+  line-height: normal;
+}

@@ -1,0 +1,19 @@
+.p-link {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.p-galleria .p-galleria-indicators .p-galleria-indicator button {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.p-galleria .p-galleria-indicators {
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0;
+}

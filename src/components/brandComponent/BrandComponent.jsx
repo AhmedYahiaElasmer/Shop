@@ -1,8 +1,8 @@
 import { Rating } from "primereact/rating";
-import HomeCard from "../cardComponent/HomeCard.jsx";
 import { Image } from "primereact/image";
 import { Button } from "primereact/button";
 import "./BrandComponent.css";
+import HomeCard from "../cardComponent/HomeCard/HomeCard.jsx";
 function BrandComponent() {
   return (
     <div className="flex flex-column ">
@@ -70,7 +70,7 @@ function BrandComponent() {
           </div>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex gap-2">
         <HomeCard />
         <HomeCard />
         <HomeCard />

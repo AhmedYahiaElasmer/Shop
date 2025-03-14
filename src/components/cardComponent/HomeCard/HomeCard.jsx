@@ -19,19 +19,28 @@ function HomeCard() {
                 <p className="p-0 m-0  text-badgeBold text-50 ">50% off</p>
               </div>
             </div>
-            <img
-              style={{ borderRadius: "16px" }}
-              src="https://cdn.shopify.com/s/files/1/0293/9277/files/12-04-23Studio7_CB_AL_09-24-57_10_22024053_White_P_0304_CM.jpg?v=1701986926&width=1500"
-              className="w-full h-full"
-              alt="list-1-1"
-            />
+            <div
+              className="relative flex flex-column justify-content-center align-items-center overflow-hidden "
+              style={{
+                aspectRatio: "1/1",
+                width: "172px",
+                height: "172px",
+              }}
+            >
+              <img
+                style={{
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  width: "inherit",
+                  height: "inherit",
+                }}
+                src="https://cdn.shopify.com/s/files/1/0293/9277/files/12-04-23Studio7_CB_AL_09-24-57_10_22024053_White_P_0304_CM.jpg?v=17019"
+              />
+            </div>
+
             <button
               type="text"
-              className="p-ripple p-link w-2rem h-2rem  border-circle shadow-2 inline-flex align-items-center justify-content-center absolute  transition-duration-300 surface-400 hover:surface-500"
-              style={{
-                top: "1rem",
-                right: "1rem",
-              }}
+              className="p-ripple p-link w-2rem h-2rem  border-circle shadow-2 inline-flex align-items-center justify-content-center absolute right-space-12 top-space-12 z-1  transition-duration-300 surface-400 hover:surface-500"
             >
               <i
                 className="pi pi pi-times text- text-500"
@@ -40,11 +49,7 @@ function HomeCard() {
             </button>
             <button
               type="text"
-              className="p-ripple p-link w-2rem h-2rem surface-400 hover:surface-500 border-circle shadow-2 inline-flex align-items-center justify-content-center absolute transition-colors transition-duration-300"
-              style={{
-                bottom: "1rem",
-                right: "1rem",
-              }}
+              className="p-ripple p-link w-2rem h-2rem surface-400 hover:surface-500 border-circle shadow-2 inline-flex align-items-center justify-content-center absolute right-space-12 bottom-space-12 z-1  transition-colors transition-duration-300"
             >
               <i
                 className="pi pi-heart text text-500 --surface-400"
