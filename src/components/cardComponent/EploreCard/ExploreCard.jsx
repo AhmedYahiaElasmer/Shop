@@ -83,7 +83,7 @@ function ExploreCard() {
                 <div className="flex justify-content-between align-items-center">
                   <div>
                     <div
-                      className=" flex align-items-center overflow-hidden m-1 "
+                      className=" flex align-items-center   overflow-hidden m-1 "
                       style={{
                         borderRadius: "12px",
                         backgroundColor: "#F5F5F5",
@@ -98,7 +98,7 @@ function ExploreCard() {
                       <div className="absolute inset-0 bg-bg-overlay-inverse-04"></div>
                     </div>
                   </div>
-                  <div className="flex align-items-center gap-5 ">
+                  <div className="flex align-items-center justify-content-evenly  ">
                     <div>
                       <h3 className="text text-900  font-bold m-0 ">Comfrt</h3>
                     </div>

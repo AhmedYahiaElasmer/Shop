@@ -4,27 +4,43 @@ import { InputText } from "primereact/inputtext";
 import { Avatar } from "primereact/avatar";
 import { Toolbar } from "primereact/toolbar";
 import Logo from "../../../Common/Logo.jsx";
+import { NavLink } from "react-router";
 function Navbar() {
   const start = (
-    <div className="flex justify-content-between" style={{ width: "250px" }}>
+    <nav
+      className="flex justify-content-between align-items-center"
+      style={{ width: "250px" }}
+    >
       <div>
         <Logo />
       </div>
       <div>
-        <a>
+        <NavLink
+          to="/"
+          className="no-underline  font-bold "
+          style={({ isActive }) => ({
+            color: isActive ? "black" : "#848484",
+          })}
+        >
           <p>Home</p>
-        </a>
+        </NavLink>
       </div>
       <div>
-        <a>
+        <NavLink
+          to="/Explore"
+          className="no-underline  font-bold "
+          style={({ isActive }) => ({
+            color: isActive ? "black" : "#848484",
+          })}
+        >
           <p>Explore</p>
-        </a>
+        </NavLink>
       </div>
-    </div>
+    </nav>
   );
   const end = (
     <div
-      className="flex justify-content-between align-items-center gap-2"
+      className="flex justify-content-between align-items-center gap-2 "
       style={{ width: "150px" }}
     >
       <div>

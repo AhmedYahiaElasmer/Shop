@@ -17,3 +17,7 @@
   padding-top: 0.5rem;
   padding-bottom: 0;
 }
+.p-galleria .p-galleria-indicators .p-galleria-indicator button {
+  width: 0.5rem;
+  height: 0.5rem;
+}

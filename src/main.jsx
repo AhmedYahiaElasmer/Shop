@@ -8,11 +8,13 @@ import "primeicons/primeicons.css";
 import "../node_modules/primeflex/primeflex.css";
 import "../node_modules/primeflex/themes/primeone-light.css";
 import "./index.css";
-
+import { BrowserRouter } from "react-router";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <PrimeReactProvider>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </PrimeReactProvider>
   </React.StrictMode>
 );
