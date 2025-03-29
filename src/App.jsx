@@ -2,6 +2,7 @@ import HomePage from "./PAGES/Home/HomePage.jsx";
 import ExplorePage from "./PAGES/Explore/ExplorePage.jsx";
 import Navbar from "./components/Layout/Navbar/Navbar.jsx";
 import { Route, Routes } from "react-router";
+import Footer from "./components/Layout/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           </Routes>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
