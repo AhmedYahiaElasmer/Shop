@@ -40,7 +40,7 @@ function Navbar() {
   );
   const end = (
     <div
-      className="flex justify-content-between align-items-center gap-2 "
+      className="hidden sm:flex justify-content-between align-items-center gap-2 "
       style={{ width: "150px" }}
     >
       <div>

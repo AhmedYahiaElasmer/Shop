@@ -62,8 +62,8 @@ function ExploreCard() {
     );
   };
   return (
-    <div>
-      <div className="card mb-0 ">
+    <>
+      <div className="card mb-0  ">
         <div className="flex flex-column align-items-start  flex-wrap  mb-5 ">
           <Galleria
             value={images}
@@ -122,7 +122,7 @@ function ExploreCard() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

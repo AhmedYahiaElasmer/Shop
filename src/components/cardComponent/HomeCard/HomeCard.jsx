@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Rating } from "primereact/rating";
 import "./HomeCard.css";
+import { Link } from "react-router";
 function HomeCard() {
   const [value, setValue] = useState(null);
   return (
@@ -9,7 +10,7 @@ function HomeCard() {
         className="col-12 md:col-6 lg:col-3 mb-3 lg:mb-0 "
         style={{ width: "11rem" }}
       >
-        <a className="p-2 no-underline  active:none" href="#">
+        <Link className="p-2 no-underline  active:none" to="/product/1">
           <div className="relative">
             <div className="absolute left-space-12 top-space-12 z-1">
               <div
@@ -77,7 +78,7 @@ function HomeCard() {
               $14 <span className="text text-700 line-through ">$150.00</span>
             </div>
           </p>
-        </a>
+        </Link>
       </div>
     </>
   );

@@ -1,0 +1,12 @@
+.CategoryCard {
+  width: 17vw !important;
+  height: 10vh !important;
+  aspectratio: 1/1 !important;
+}
+
+@media (max-width: 768px) {
+  .CategoryCard {
+    width: 41vw !important;
+    height: 9vh !important;
+  }
+}

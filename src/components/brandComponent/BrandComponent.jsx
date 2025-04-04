@@ -3,7 +3,8 @@ import { Image } from "primereact/image";
 import { Button } from "primereact/button";
 import "./BrandComponent.css";
 import HomeCard from "../cardComponent/HomeCard/HomeCard.jsx";
-function BrandComponent() {
+function BrandComponent(props) {
+  const { IsFollowButton = true } = props;
   return (
     <div className="flex flex-column ">
       <div>
@@ -54,20 +55,45 @@ function BrandComponent() {
               </a>
             </div>
           </div>
-          <div className="">
-            <Button
-              label="Follow"
-              severity="contrast"
-              raised
-              className="ml-2"
-            />
-            <Button
-              icon="pi pi-ellipsis-h text text-900"
-              rounded
-              text
-              aria-label="setting"
-            />
-          </div>
+          {IsFollowButton ? (
+            <div className="">
+              <Button
+                label="Follow"
+                severity="contrast"
+                raised
+                className="ml-2"
+              />
+              <Button
+                icon="pi pi-ellipsis-h text text-900"
+                rounded
+                text
+                aria-label="setting"
+              />
+            </div>
+          ) : (
+            <div className="flex justify-content-center gap-2">
+              <div>
+                <Button
+                  icon="pi pi-angle-left"
+                  rounded
+                  text
+                  raised
+                  severity="secondary"
+                  aria-label="pi-angle-left"
+                />
+              </div>
+              <div>
+                <Button
+                  icon="pi pi-angle-right"
+                  rounded
+                  text
+                  raised
+                  severity="secondary"
+                  aria-label="pi-angle-right"
+                />
+              </div>
+            </div>
+          )}
         </div>
       </div>
       <div className="flex gap-2">

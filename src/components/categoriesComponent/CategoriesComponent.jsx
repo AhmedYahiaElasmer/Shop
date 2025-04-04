@@ -19,7 +19,7 @@ function CategoriesComponent() {
           />
         </div>
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap w-screen sm:w-full">
         <ExploreCard />
         <ExploreCard />
         <ExploreCard />

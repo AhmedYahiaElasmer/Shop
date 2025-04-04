@@ -1,0 +1,63 @@
+.cardgallary {
+  font-family: var(--font-family);
+  font-weight: normal;
+  background: var(--surface-ground);
+  color: var(--text-color);
+  padding: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--surface-card);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  /* background-color: red; */
+}
+.imgcard {
+  /* background-color: blue; */
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.p-galleria
+  .p-galleria-thumbnail-container
+  .p-galleria-thumbnail-item-content
+  img {
+  height: 100px;
+}
+.p-galleria-item-wrapper .p-galleria-item-container .p-galleria-item img {
+  max-height: 400px;
+}
+.p-galleria-thumbnail-container button {
+  display: none;
+}
+.p-galleria .p-galleria-thumbnail-container {
+  background: rgba(0, 0, 0, 0);
+}
+
+.p-galleria-thumbnail-item {
+  opacity: 1;
+}
+
+[data-pc-section="thumbnailitem"] {
+  /* flex: 0 1 20% !important; */
+  width: 100%;
+  border-radius: 20px;
+}
+
+.p-galleria-thumbnail-items div div,
+.p-galleria-thumbnail-items div {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.p-galleria-thumbnail-items div {
+  /* width: 48px;
+  height: 48px;
+  margin-right: 6px; */
+}

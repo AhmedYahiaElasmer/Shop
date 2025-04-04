@@ -3,8 +3,8 @@ import CategoriesComponent from "../../components/categoriesComponent/Categories
 
 function ExplorePage() {
   return (
-    <div>
-      <div className="flex gap-2 flex-wrap  align-items-center justify-content-center ">
+    <div className="grid">
+      <div className=" flex  flex-wrap  align-items-center justify-content-center ">
         <CategoryCard />
         <CategoryCard />
         <CategoryCard />
@@ -12,7 +12,7 @@ function ExplorePage() {
         <CategoryCard />
         <CategoryCard />
       </div>
-      <div className="flex gap-2 flex-wrap  align-items-center justify-content-center ">
+      <div className="flex  flex-wrap  align-items-center justify-content-center ">
         <CategoriesComponent />
         <CategoriesComponent />
         <CategoriesComponent />

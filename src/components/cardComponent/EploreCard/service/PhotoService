@@ -1,74 +1,74 @@
 export const PhotoService = {
-  getData() {
-    return [
-      {
-        itemImageSrc:
-          "https://cdn.shopify.com/s/files/1/0273/3631/0807/files/PrimeLash_Mascara.png?v=1741249583&format=webp&width=800 800w",
-        thumbnailImageSrc:
-          "https://cdn.shopify.com/s/files/1/0273/3631/0807/files/PrimeLash_Mascara.png?v=1741249583&format=webp&width=800 800w",
-        alt: "Description for Image 1",
-        title: "Title 1",
-      },
-      {
-        itemImageSrc:
-          "https://cdn.shopify.com/s/files/1/0291/1564/6027/files/performance-revival-jar-167897.jpg?v=1735981435&width=512",
-        thumbnailImageSrc:
-          "https://cdn.shopify.com/s/files/1/0291/1564/6027/files/performance-revival-jar-167897.jpg?v=1735981435&width=512",
-        alt: "Description for Image 2",
-        title: "Title 2",
-      },
-      {
-        itemImageSrc:
-          "https://cdn.shopify.com/s/files/1/1366/9275/products/IRISH_CAMO_SS_POLO-4.jpg?v=1724177187&width=256",
-        thumbnailImageSrc:
-          "https://cdn.shopify.com/s/files/1/1366/9275/products/IRISH_CAMO_SS_POLO-4.jpg?v=1724177187&width=256",
-        alt: "Description for Image 3",
-        title: "Title 3",
-      },
-      {
-        itemImageSrc:
-          "https://cdn.shopify.com/s/files/1/1008/2786/files/metallica-and-justice-for-all-flannel-338723.jpg?v=1737555612&width=256",
-        thumbnailImageSrc:
-          "https://cdn.shopify.com/s/files/1/1008/2786/files/metallica-and-justice-for-all-flannel-338723.jpg?v=1737555612&width=256",
-        alt: "Description for Image 4",
-        title: "Title 4",
-      },
-      {
-        itemImageSrc:
-          "https://cdn.shopify.com/s/files/1/0272/4531/4113/files/90S1.png?v=1741313198&format=webp&width=800 800w",
-        thumbnailImageSrc:
-          "https://cdn.shopify.com/s/files/1/0272/4531/4113/files/90S1.png?v=1741313198&format=webp&width=800 800w",
-        alt: "Description for Image 5",
-        title: "Title 5",
-      },
-      {
-        itemImageSrc:
-          "https://cdn.shopify.com/s/files/1/0293/9277/files/10-04-24_S7_25_22024053_White_KJ_DJ_-Collection_11-34-49_18428_CM.jpg?v=1728943269&width=800",
-        thumbnailImageSrc:
-          "https://cdn.shopify.com/s/files/1/0293/9277/files/10-04-24_S7_25_22024053_White_KJ_DJ_-Collection_11-34-49_18428_CM.jpg?v=1728943269&width=800",
-        alt: "Description for Image 6",
-        title: "Title 6",
-      },
-      {
-        itemImageSrc:
-          " https://cdn.shopify.com/s/files/1/0569/4029/8284/files/Untitleddesign_29.jpg?v=1710573164&width=800",
-        thumbnailImageSrc:
-          "https://cdn.shopify.com/s/files/1/0569/4029/8284/files/Untitleddesign_29.jpg?v=1710573164&width=800",
-        alt: "Description for Image 7",
-        title: "Title 7",
-      },
-      {
-        itemImageSrc:
-          "https://cdn.shopify.com/s/files/1/0104/6904/8384/files/62361-TravelCase-BottleFreeBeauty-Terracotta-4-1280x1280px.jpg?v=1709838540&width=800",
-        thumbnailImageSrc:
-          "https://cdn.shopify.com/s/files/1/0104/6904/8384/files/62361-TravelCase-BottleFreeBeauty-Terracotta-4-1280x1280px.jpg?v=1709838540&width=800",
-        alt: "Description for Image 8",
-        title: "Title 8",
-      },
-    ];
-  },
+getData() {
+return [
+{
+itemImageSrc:
+"https://cdn.shopify.com/s/files/1/0273/3631/0807/files/PrimeLash_Mascara.png?v=1741249583&format=webp",
+thumbnailImageSrc:
+"https://cdn.shopify.com/s/files/1/0273/3631/0807/files/PrimeLash_Mascara.png?v=1741249583&format=webp",
+alt: "Description for Image 1",
+title: "Title 1",
+},
+{
+itemImageSrc:
+"https://cdn.shopify.com/s/files/1/0291/1564/6027/files/performance-revival-jar-167897.jpg?v=1735981435&width=512",
+thumbnailImageSrc:
+"https://cdn.shopify.com/s/files/1/0291/1564/6027/files/performance-revival-jar-167897.jpg?v=1735981435&width=512",
+alt: "Description for Image 2",
+title: "Title 2",
+},
+{
+itemImageSrc:
+"https://cdn.shopify.com/s/files/1/1366/9275/products/IRISH_CAMO_SS_POLO-4.jpg?v=1724177187&width=256",
+thumbnailImageSrc:
+"https://cdn.shopify.com/s/files/1/1366/9275/products/IRISH_CAMO_SS_POLO-4.jpg?v=1724177187&width=256",
+alt: "Description for Image 3",
+title: "Title 3",
+},
+{
+itemImageSrc:
+"https://cdn.shopify.com/s/files/1/1008/2786/files/metallica-and-justice-for-all-flannel-338723.jpg?v=1737555612&width=256",
+thumbnailImageSrc:
+"https://cdn.shopify.com/s/files/1/1008/2786/files/metallica-and-justice-for-all-flannel-338723.jpg?v=1737555612&width=256",
+alt: "Description for Image 4",
+title: "Title 4",
+},
+{
+itemImageSrc:
+"https://cdn.shopify.com/s/files/1/0272/4531/4113/files/90S1.png?v=1741313198&format=webp&width=800 800w",
+thumbnailImageSrc:
+"https://cdn.shopify.com/s/files/1/0272/4531/4113/files/90S1.png?v=1741313198&format=webp&width=800 800w",
+alt: "Description for Image 5",
+title: "Title 5",
+},
+{
+itemImageSrc:
+"https://cdn.shopify.com/s/files/1/0293/9277/files/10-04-24_S7_25_22024053_White_KJ_DJ_-Collection_11-34-49_18428_CM.jpg?v=1728943269&width=800",
+thumbnailImageSrc:
+"https://cdn.shopify.com/s/files/1/0293/9277/files/10-04-24_S7_25_22024053_White_KJ_DJ_-Collection_11-34-49_18428_CM.jpg?v=1728943269&width=800",
+alt: "Description for Image 6",
+title: "Title 6",
+},
+{
+itemImageSrc:
+" https://cdn.shopify.com/s/files/1/0569/4029/8284/files/Untitleddesign_29.jpg?v=1710573164&width=800",
+thumbnailImageSrc:
+"https://cdn.shopify.com/s/files/1/0569/4029/8284/files/Untitleddesign_29.jpg?v=1710573164&width=800",
+alt: "Description for Image 7",
+title: "Title 7",
+},
+{
+itemImageSrc:
+"https://cdn.shopify.com/s/files/1/0104/6904/8384/files/62361-TravelCase-BottleFreeBeauty-Terracotta-4-1280x1280px.jpg?v=1709838540&width=800",
+thumbnailImageSrc:
+"https://cdn.shopify.com/s/files/1/0104/6904/8384/files/62361-TravelCase-BottleFreeBeauty-Terracotta-4-1280x1280px.jpg?v=1709838540&width=800",
+alt: "Description for Image 8",
+title: "Title 8",
+},
+];
+},
 
-  getImages() {
-    return Promise.resolve(this.getData());
-  },
+getImages() {
+return Promise.resolve(this.getData());
+},
 };
