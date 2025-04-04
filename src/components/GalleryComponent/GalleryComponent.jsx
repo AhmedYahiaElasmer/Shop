@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Galleria } from "primereact/galleria";
 import { Button } from "primereact/button";
 import { PhotoService } from "../cardComponent/EploreCard/service/PhotoService";
-import "./galleryComponent.css";
+import "./GalleryComponent.css";
 
 export default function GalleryComponent() {
   const [images, setImages] = useState(null);
